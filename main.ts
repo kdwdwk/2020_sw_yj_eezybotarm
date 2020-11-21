@@ -1,5 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    motor.servo(motor.Servos.S2, 0 - receivedNumber)
+    motor.servo(motor.Servos.S2, 204 - receivedNumber)
 })
 radio.onReceivedValue(function (name, value) {
     if (name == "가변저항1") {
